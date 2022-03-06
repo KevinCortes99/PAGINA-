@@ -1,0 +1,27 @@
+.caja{
+    /*border: solid;*/
+    margin:0 auto;
+    width: 50%;
+}
+
+
+.capafondo{
+    background:url("fondo.jpg") no-repeat;
+    background-size: cover;
+    filter:gryscale(0.4);
+    height:100%;
+    opacity:0.4;
+    position: fixed;
+    width:100%;
+    z-index:-1;
+}
+
+    .caja .mifoto{
+        
+        border-radius:1em;
+        box-shadow:0 0 0.5em rgba(0,0,0,0.8);
+        cursor:pointer;
+
+        
+    }
+
